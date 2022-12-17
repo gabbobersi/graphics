@@ -28,7 +28,20 @@ void graphic_fill_rect(uint32_t* pixels, size_t pixels_width, size_t pixels_heig
 	}
 }
 
-void graphic_fill_circle(uint32_t* pixels, size_t pixels_width, size_t pixels_height) {
+void graphic_fill_circle(uint32_t* pixels, size_t pixels_width, size_t pixels_height,
+	int x0, int y0, size_t r, uint32_t color) 
+{
+	// Trick: take a rectangle and iterate in each pixel to check if it is in the circle.
+	int x1 = x0 - (int)r;
+	int y1 = y0 - (int)r;
+	int x2 = x0 + (int)r;
+	int y2 = y0 + (int)r;
+
+	for (int x = x1; x <= x2; x++) {
+		for (int y = y1; y <= y2; y++) {
+
+		}
+	}
 
 }
 
