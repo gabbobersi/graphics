@@ -6,6 +6,13 @@ Codespaces
 Marketplace
 Explore
  
+# MyFiles
+*.vcxproj*
+Debug
+.vs
+*.sln
+
+
 @gabbobersi 
 github
 /
