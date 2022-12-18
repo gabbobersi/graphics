@@ -1,4 +1,4 @@
-#include "graphic.h"
+#include "graphics.h"
 
 bool checker_example(void) {
 	graphic_fill(pixels, WIDTH, HEIGHT, BACKGROUND_COLOR);

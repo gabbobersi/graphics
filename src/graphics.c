@@ -1,4 +1,4 @@
-#include "graphic.h"
+#include "graphics.h"
 
 void graphic_fill(uint32_t* pixels, size_t width, size_t height, uint32_t color) {
 	for (size_t i = 0; i < width * height; i++) {
