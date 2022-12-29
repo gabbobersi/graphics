@@ -9,7 +9,7 @@ For prototyping purposes.
   - Clear the image with background color.  
 - **graphic_fill_rect**
   - Draw a rectangle.  
-- **graphic_fill_circle**
+- **graphic_fill_circle** WIP
   - Draw a circle.
 - **graphic_save_to_ppm_file**: 
   - Create (overwrite) and save the ppm file.  
