@@ -1,5 +1,5 @@
 ### Notes
-This library is WIP. I'm working on it because I enjoy to doing it, in my free time.  
+This library is WIP.
 These features will allow me (and maybe you) to copy/paste them for graphics purposes such as video/drawing library or game dev.
 # graphics
 C library to draw geometrich shapes in ppm files.
